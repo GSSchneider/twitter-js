@@ -1,6 +1,7 @@
 const express = require('express');
 const chalk = require('chalk');
 const nunjucks = require('nunjucks');
+const morgan = require('morgan');
 const log = console.log;
 const app = express(); // creates an instance of an express application
 
